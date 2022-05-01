@@ -91,7 +91,7 @@ st.header("Applying different ML algorithms")
 st.write("* Before training my model, I  had to deal with categorical features and text features "
          "because the computer can only understand numeric features. So I did the following steps.")
 st.write("1. Replaced month with the average demand during that month.")
-st.write("2. Used one hot encoding to replace features year, season and Weather")
+st.write("2. Used one hot encoding to replace features such as year, season and Weather")
 X_train, X_test, Y_train, Y_test = cv.train_test_split(final, Y, test_size = 0.33, random_state = 5)
 col1,col2,col3 = st.columns(3)
 
