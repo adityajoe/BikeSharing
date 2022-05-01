@@ -20,11 +20,9 @@ st.write("""* Bike sharing systems are a new generation of traditional bike rent
 
 st.write( """* The goal here was to build an end-to-end regression model 
            to predict the number of bike sharing users on any given day.""")
-st.write("""* The problem we are trying to solve here is that if we know in which months or on which days we may have more customers, 
-we can plan accordingly to accomodate everyone so that our business keeps expanding""")
-st.write("""* For this project I have tried to compare three models - 
-Linear Regression, Decision Tree Regressors and Random Forest Regressor. 
-The dataset was collected from UCI Machine Learning repository
+st.write("""* The problem we are trying to solve here is to find the months or days or seasons during which we may have more customers.This will help us grow our business 
+""")
+st.write("""* For this project I have tried to compare three models - Linear Regression, Decision Tree Regressors and Random Forest Regressor. The dataset was collected from UCI Machine Learning repository
 """)
 data = st.checkbox("Show raw data collected")
 if data:
