@@ -2,7 +2,7 @@ pandas
 numpy
 sklearn
 joblib
-matplotlib
+matplotlib.pyplot
 seaborn
 Image
 PIL
